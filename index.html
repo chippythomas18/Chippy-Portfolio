@@ -3,21 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chippy Thomas — Full Stack Software Engineer</title>
-<meta name="description" content="Chippy Thomas — Full Stack Software Engineer in Brampton, ON. 5 years building production web platforms with Laravel, Vue.js, MySQL and AWS. Open to new opportunities in the GTA and remote.">
-<meta property="og:title" content="Chippy Thomas — Full Stack Software Engineer">
-<meta property="og:description" content="Laravel · Vue.js · AWS. Open to new opportunities in the GTA & remote.">
+<title>Chippy Thomas — Software Engineer & Business Analyst</title>
+<meta name="description" content="Chippy Thomas is a software engineer and business analyst in Brampton, ON with 5 years of experience turning business needs into web applications, APIs and mobile app backends. Open to new opportunities.">
+<meta property="og:title" content="Chippy Thomas — Software Engineer & Business Analyst">
+<meta property="og:description" content="Chippy Thomas is a software engineer and business analyst in Brampton, ON with 5 years of experience turning business needs into web applications, APIs and mobile app backends. Open to new opportunities.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://chippythomas.netlify.app/">
-<meta name="theme-color" content="#0c0c0b">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='32' fill='%230c0c0b'/><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia' font-style='italic' font-size='30' fill='%23d4ff4f'>ct</text></svg>">
+<meta property="og:image" content="https://chippythomas18.github.io/Chippy-Portfolio/images/icon-512.png">
+<meta name="theme-color" content="#0b1120">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0c0c0b; --bg2:#141413; --fg:#f2f1ec; --muted:#8d8c86; --dim:#55544f;
-  --line:rgba(242,241,236,.1); --accent:#d4ff4f;
+  --bg:#0b1120; --bg2:#111a2e; --fg:#eef1f7; --muted:#8e9ab0; --dim:#4f5b73;
+  --line:rgba(220,230,255,.1); --accent:#d4ff4f;
   --pad:clamp(20px,4.5vw,64px);
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -32,8 +33,7 @@ a{color:inherit;text-decoration:none}
 
 /* header */
 header{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:22px var(--pad);border-bottom:1px solid transparent;transition:background .4s,backdrop-filter .4s,padding .4s,transform .5s cubic-bezier(.7,0,.2,1),border-color .4s}
-header.scrolled{background:rgba(12,12,11,.38);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);padding:14px var(--pad);border-color:var(--line)}
-header.hide{transform:translateY(-110%)}
+header.scrolled{background:rgba(11,17,32,.35);backdrop-filter:blur(16px) saturate(150%);-webkit-backdrop-filter:blur(16px) saturate(150%);padding:14px var(--pad);border-color:var(--line)}
 .progress{position:fixed;top:0;left:0;height:2px;width:100%;background:var(--accent);transform-origin:left;transform:scaleX(0);z-index:60}
 .brand{display:flex;flex-direction:column;line-height:1.15}
 .brand b{font-weight:600;font-size:15px;letter-spacing:-.01em}
@@ -87,16 +87,16 @@ h2 .serif{font-style:italic;letter-spacing:-.02em}
 .feature{display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(24px,4vw,64px);padding:clamp(24px,3.5vw,48px);background:var(--bg2);border:1px solid var(--line);border-radius:24px;margin-bottom:16px;position:relative;overflow:hidden}
 .feature .meta{display:flex;gap:14px;margin-bottom:22px}
 .feature h3{font-size:clamp(40px,5vw,72px);letter-spacing:-.045em;line-height:.95;font-weight:500;margin-bottom:20px}
-.feature .lede{font-size:clamp(17px,1.4vw,20px);color:#c9c8c1;max-width:520px;margin-bottom:28px}
-.points{list-style:none;display:grid;gap:14px;font-size:15px;color:#c9c8c1}
+.feature .lede{font-size:clamp(17px,1.4vw,20px);color:#c3cad8;max-width:520px;margin-bottom:28px}
+.points{list-style:none;display:grid;gap:14px;font-size:15px;color:#c3cad8}
 .points li{display:grid;grid-template-columns:28px 1fr;align-items:baseline}
 .points li span{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--accent)}
 .points b{color:var(--fg);font-weight:500}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}
-.tag{font-size:12.5px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:#c9c8c1}
+.tag{font-size:12.5px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:#c3cad8}
 
 /* diagram panel */
-.diagram{background:#0f0f0e;border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;justify-content:center;gap:12px;font-size:13px;min-height:100%}
+.diagram{background:#0d1527;border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;justify-content:center;gap:12px;font-size:13px;min-height:100%}
 .diagram .lbl{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--dim);margin-bottom:6px}
 .drow{display:grid;gap:10px}
 .d2{grid-template-columns:1fr 1fr}.d3{grid-template-columns:1fr 1fr 1fr}
@@ -125,7 +125,7 @@ h2 .serif{font-style:italic;letter-spacing:-.02em}
 .exp .n{font-family:"Instrument Serif",serif;font-style:italic;font-size:56px;color:var(--accent);line-height:1}
 .exp h3{font-size:24px;font-weight:500;letter-spacing:-.02em;margin:18px 0 10px}
 .exp p{color:var(--muted);font-size:15px;margin-bottom:22px}
-.exp ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:#c9c8c1}
+.exp ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:#c3cad8}
 .exp ul li::after{content:"·";margin-left:14px;color:var(--dim)}
 .exp ul li:last-child::after{content:""}
 
@@ -134,14 +134,14 @@ h2 .serif{font-style:italic;letter-spacing:-.02em}
 .job{display:grid;grid-template-columns:200px 1fr 1.3fr;gap:24px;padding:32px 0;border-bottom:1px solid var(--line)}
 .job h4{font-size:22px;font-weight:500;letter-spacing:-.02em}
 .job .co{color:var(--muted);font-size:15px;margin-top:4px}
-.job p{color:#c9c8c1;font-size:15px}
+.job p{color:#c3cad8;font-size:15px}
 .edu{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
 .edu div{border:1px solid var(--line);border-radius:16px;padding:22px}
 .edu b{display:block;font-weight:500;margin:10px 0 4px}
 .edu span{color:var(--muted);font-size:14px}
 
 /* testimonial */
-.quote{padding:clamp(28px,5vw,72px);border:1px solid var(--line);border-radius:28px;background:linear-gradient(160deg,#151514,#0f0f0e);position:relative}
+.quote{padding:clamp(28px,5vw,72px);border:1px solid var(--line);border-radius:28px;background:linear-gradient(160deg,#14203a,#0d1527);position:relative}
 .quote .mark{font-family:"Instrument Serif",serif;font-size:140px;line-height:.6;color:var(--accent);display:block;height:56px}
 .quote blockquote{font-family:"Instrument Serif",serif;font-size:clamp(26px,3.3vw,48px);line-height:1.18;letter-spacing:-.01em;max-width:1050px}
 .quote blockquote em{color:var(--accent)}
@@ -219,35 +219,133 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
   .who a{margin-left:0}
   .contact-row,.minis{grid-template-columns:1fr}
 }
+
+/* ---------- shared additions ---------- */
+.logo-img{height:44px;width:auto;display:block;opacity:.92;transition:opacity .2s,transform .3s}
+.foot-brand:hover .logo-img{opacity:1;transform:rotate(-4deg)}
+.foot-brand{display:flex;align-items:center;gap:14px}
+.foot-brand .fallback{display:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);place-items:center;font-family:"Instrument Serif",serif;font-style:italic;font-size:20px;color:var(--accent)}
+.foot-brand.noimg .fallback{display:grid}
+.foot-brand.noimg .logo-img{display:none}
+nav.main a.on{color:var(--fg)}
+nav.main a.on::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:1px;background:var(--accent)}
+.page-hero{padding:170px var(--pad) 40px}
+.page-hero h1{font-size:clamp(56px,10vw,160px)}
+.page-hero .intro{font-size:clamp(18px,1.7vw,23px);max-width:760px;margin-top:34px;color:#c3cad8;line-height:1.45}
+.page-hero .intro em{font-style:normal;color:var(--fg)}
+
+/* capabilities */
+.cap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cap{border:1px solid var(--line);border-radius:20px;padding:28px;background:var(--bg2);transition:border-color .3s,transform .4s}
+.cap:hover{border-color:rgba(212,255,79,.4);transform:translateY(-4px)}
+.cap .n{font-family:"Instrument Serif",serif;font-style:italic;font-size:34px;color:var(--accent);line-height:1}
+.cap h3{font-size:21px;font-weight:500;letter-spacing:-.02em;margin:16px 0 8px}
+.cap p{color:var(--muted);font-size:15px;margin-bottom:18px}
+.cap .stack{font-size:13.5px;color:#c3cad8}
+.learning{margin-top:16px;border:1px dashed rgba(212,255,79,.35);border-radius:20px;padding:26px 28px;display:grid;grid-template-columns:auto 1fr;gap:20px 28px;align-items:center;background:rgba(212,255,79,.03)}
+.learning .mono{color:var(--accent)}
+.learning p{font-size:17px}
+.learning p span{color:var(--muted)}
+
+/* project cards (home) */
+.pcards{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:auto auto;gap:16px}
+.pcard{border:1px solid var(--line);border-radius:24px;padding:32px;background:var(--bg2);display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden;transition:border-color .3s}
+.pcard:hover{border-color:rgba(212,255,79,.4)}
+.pcard.lead-card{grid-row:span 2;justify-content:space-between}
+.pcard h3{font-size:clamp(32px,3.6vw,54px);font-weight:500;letter-spacing:-.045em;line-height:1}
+.pcard.lead-card h3{font-size:clamp(44px,5.4vw,84px)}
+.pcard p{color:#c3cad8;font-size:15.5px;max-width:520px}
+.pcard .row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:auto;padding-top:10px}
+.pcard .more{font-size:14px;display:inline-flex;gap:8px;transition:gap .2s,color .2s}
+.pcard:hover .more{gap:14px;color:var(--accent)}
+.pcard .glow{position:absolute;right:-120px;top:-120px;width:340px;height:340px;border-radius:50%;background:radial-gradient(closest-side,rgba(212,255,79,.12),transparent);pointer-events:none}
+.bullets{list-style:none;display:grid;gap:8px;font-size:14.5px;color:#c3cad8}
+.bullets li{display:grid;grid-template-columns:18px 1fr}
+.bullets li::before{content:"→";color:var(--accent);font-size:12px;padding-top:3px}
+
+/* recommendation card */
+.rec{max-width:880px;margin:0 auto;background:#f7f7f4;color:#1d1d1b;border-radius:18px;padding:30px 32px;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative}
+.rec-head{display:flex;gap:16px;align-items:center}
+.rec-photo{width:64px;height:64px;border-radius:50%;object-fit:cover;flex-shrink:0;background:#d9dccf}
+.rec-photo-fallback{width:64px;height:64px;border-radius:50%;background:#1d1d1b;color:var(--accent);display:none;place-items:center;font-weight:600;font-size:20px;flex-shrink:0}
+.rec-head.noimg .rec-photo{display:none}
+.rec-head.noimg .rec-photo-fallback{display:grid}
+.rec-head b{display:block;font-size:17px;font-weight:600}
+.rec-head .t{display:block;font-size:13.5px;color:#55554f;line-height:1.4}
+.rec-head .d{display:block;font-size:12.5px;color:#7a7a72;margin-top:3px}
+.rec blockquote{margin-top:20px;font-size:clamp(16px,1.5vw,18.5px);line-height:1.6;color:#1d1d1b}
+.rec-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:22px;padding-top:16px;border-top:1px solid #e3e3dc;font-size:13px;color:#6b6b63}
+.rec-foot a{color:#1d1d1b;font-weight:500;display:inline-flex;gap:6px}
+.rec-foot a:hover{text-decoration:underline}
+.rec-wrap{max-width:1000px;margin:0 auto}
+.rec-link{display:block;background:#fff;border-radius:18px;padding:clamp(10px,2vw,22px);box-shadow:0 30px 80px rgba(0,0,0,.45);transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.rec-link:hover{transform:translateY(-4px) rotate(-.3deg)}
+.rec-shot{display:block;width:100%;height:auto}
+.rec-note{margin:22px auto 0;text-align:center}
+
+/* case studies (work page) */
+.case{padding:clamp(28px,4vw,56px);border:1px solid var(--line);border-radius:28px;background:var(--bg2);margin-bottom:24px;scroll-margin-top:90px}
+.case-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.case h2{font-size:clamp(44px,6.5vw,104px)}
+.case .tagline{font-size:clamp(18px,1.7vw,22px);color:#c3cad8;max-width:760px;margin-top:18px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:36px 0 44px}
+.facts div{background:var(--bg2);padding:18px 20px}
+.facts b{display:block;font-weight:500;margin-top:6px;font-size:15px}
+.case-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px 48px}
+.case-block h4{font-size:13px;font-family:"JetBrains Mono",monospace;font-weight:400;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin-bottom:14px}
+.case-block ul{list-style:none;display:grid;gap:11px}
+.case-block li{color:#c3cad8;font-size:15.5px;padding-left:18px;position:relative}
+.case-block li::before{content:"";position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.case-block li b{color:var(--fg);font-weight:500}
+.case-block p{color:#c3cad8;font-size:15.5px}
+.case-foot{margin-top:40px;padding-top:24px;border-top:1px solid var(--line);display:flex;gap:28px;flex-wrap:wrap}
+.case-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:34px}
+.case-nav a{font-size:14px;padding:9px 16px;border:1px solid var(--line);border-radius:999px;transition:border-color .2s,color .2s}
+.case-nav a:hover{border-color:var(--accent);color:var(--accent)}
+
+/* journey */
+.chapter{display:grid;grid-template-columns:260px 1fr;gap:clamp(24px,5vw,80px);padding:64px 0;border-top:1px solid var(--line)}
+.chapter .when{position:sticky;top:110px;align-self:start}
+.chapter .when .yr{font-size:clamp(40px,4.6vw,68px);letter-spacing:-.05em;line-height:1;font-weight:500}
+.chapter .when .yr .serif{color:var(--accent);font-style:italic}
+.chapter .when .place{color:var(--muted);font-size:15px;margin-top:12px}
+.chapter h3{font-size:clamp(28px,3vw,42px);font-weight:500;letter-spacing:-.035em;line-height:1.05}
+.chapter h3 + .co{color:var(--muted);margin-top:8px;font-size:16px}
+.chapter .story{font-size:clamp(17px,1.4vw,19px);color:#c3cad8;margin:26px 0 30px;max-width:780px;line-height:1.6}
+.chapter .two{display:grid;grid-template-columns:1fr 1fr;gap:28px 44px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.chips span{font-size:12.5px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:#c3cad8}
+.lessons{margin-top:30px;border-left:2px solid var(--accent);padding:4px 0 4px 20px;color:#c3cad8;font-size:15.5px;max-width:780px}
+.lessons b{color:var(--fg);font-weight:500}
+
+@media (max-width:980px){
+  .cap-grid{grid-template-columns:1fr 1fr}
+  .pcards{grid-template-columns:1fr}
+  .pcard.lead-card{grid-row:auto}
+  .facts{grid-template-columns:1fr 1fr}
+  .case-cols,.chapter .two{grid-template-columns:1fr}
+  .chapter{grid-template-columns:1fr;padding:48px 0}
+  .chapter .when{position:static}
+  .learning{grid-template-columns:1fr}
+}
+@media (max-width:720px){
+  .cap-grid{grid-template-columns:1fr}
+  .page-hero{padding-top:130px}
+  .rec{padding:24px 22px}
+}
 </style>
 </head>
 <body>
-
 <div class="progress" id="progress"></div>
 <header id="hdr">
-  <a href="#top" class="brand"><b>Chippy Thomas</b><span>Full Stack Engineer</span></a>
-  <nav class="main">
-    <a href="#about">About</a>
-    <a href="#work">Work</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-    <a href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
-  </nav>
-  <a href="#contact" class="cta magnetic">Let's talk <span>↗</span></a>
+  <a href="index.html" class="brand"><b>Chippy Thomas</b><span>Software Engineer &amp; Business Analyst</span></a>
+  <nav class="main"><a href="index.html" class="on">Home</a><a href="work.html">Work</a><a href="journey.html">Journey</a><a href="index.html#contact">Contact</a><a href="resume.pdf" target="_blank" rel="noopener">Résumé</a></nav>
+  <a href="index.html#contact" class="cta magnetic">Let's talk <span>↗</span></a>
   <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-label="Open navigation"><span class="bars"></span></button>
 </header>
-
-<div class="drawer" id="drawer">
-  <a href="#about">About</a>
-  <a href="#work">Work</a>
-  <a href="#experience">Experience</a>
-  <a href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
-  <a href="#contact">Contact</a>
-</div>
-
+<div class="drawer" id="drawer"><a href="index.html">Home</a><a href="work.html">Work</a><a href="journey.html">Journey</a><a href="index.html#contact">Contact</a><a href="resume.pdf" target="_blank" rel="noopener">Résumé</a></div>
 <main id="top">
 
-  <!-- HERO -->
   <section class="hero">
     <div class="badge"><span class="pulse"></span>Open to new opportunities</div>
     <h1 id="heroName">
@@ -255,18 +353,17 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
       <span class="ln"><span>Thomas<span class="serif">.</span></span></span>
     </h1>
     <div class="hero-bottom">
-      <p>Full Stack Software Engineer.<br><em>Laravel, Vue.js &amp; AWS.</em></p>
-      <p>I build software that works in the real world: turning complex business needs into reliable web platforms, polished interfaces and scalable APIs. <em>5 years, full lifecycle.</em></p>
+      <p>Software Engineer &amp;<br>Business Analyst.<br><em>Web, software &amp; app products.</em></p>
+      <p>I turn business needs into software that works in the real world, from gathering requirements and writing user stories to building, releasing and supporting web and mobile products. <em>5 years, full lifecycle.</em></p>
       <div class="scroll mono">Based in Brampton, ON <i></i></div>
     </div>
   </section>
 
   <div class="marquee" aria-hidden="true"><div class="track">
-    <span>Laravel</span><i>✦</i><span>Vue.js</span><i>✦</i><span>PHP</span><i>✦</i><span>REST APIs</span><i>✦</i><span>MySQL</span><i>✦</i><span>AWS</span><i>✦</i><span>Nuxt.js</span><i>✦</i><span>Docker</span><i>✦</i>
-    <span>Laravel</span><i>✦</i><span>Vue.js</span><i>✦</i><span>PHP</span><i>✦</i><span>REST APIs</span><i>✦</i><span>MySQL</span><i>✦</i><span>AWS</span><i>✦</i><span>Nuxt.js</span><i>✦</i><span>Docker</span><i>✦</i>
+    <span>Requirements</span><i>✦</i><span>User stories</span><i>✦</i><span>Web apps</span><i>✦</i><span>APIs</span><i>✦</i><span>Mobile backends</span><i>✦</i><span>Dashboards</span><i>✦</i><span>Databases</span><i>✦</i>
+    <span>Requirements</span><i>✦</i><span>User stories</span><i>✦</i><span>Web apps</span><i>✦</i><span>APIs</span><i>✦</i><span>Mobile backends</span><i>✦</i><span>Dashboards</span><i>✦</i><span>Databases</span><i>✦</i>
   </div></div>
 
-  <!-- ABOUT -->
   <section id="about">
     <div class="about rv">
       <div>
@@ -274,135 +371,95 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
         <h2>Engineering with context, care and <span class="serif">ownership.</span></h2>
       </div>
       <div class="about-copy">
-        <p class="lead">I'm Chippy, a full-stack engineer who enjoys seeing a product through, not just writing the code.</p>
-        <p>Over the last five years I've worked across requirements, architecture, frontend, backend, databases, testing, cloud deployments and production support. That broad view helps me make practical technical decisions and communicate clearly with both clients and engineering teams.</p>
-        <p>I'm based in Brampton, continuing my software and web development training, and volunteering as a website developer for the LALF Foundation for Women's Health.</p>
+        <p class="lead">I'm Chippy, a software engineer who is just as comfortable with the business side, working out <em style="font-style:normal;color:var(--accent)">what</em> to build as well as building it.</p>
+        <p>Over five years I've worked across requirements, architecture, frontend, backend, databases, testing, cloud deployments and production support, for agencies, startups and product teams. On Kolekt I was also the client's business analyst: running requirements conversations with the founder, writing user stories, estimating work and keeping everyone aligned through every release.</p>
+        <p>Most of my production work is in PHP/Laravel, Vue.js, MySQL and AWS, but I'm a fundamentals-first engineer who picks up a team's stack quickly. I'm open to <b style="color:var(--fg);font-weight:500">software developer and business analyst roles</b>, especially where the two meet. I'm based in Brampton, Ontario.</p>
         <div class="about-links">
+          <a class="arrow-link" href="journey.html">Read my journey <span>→</span></a>
           <a class="arrow-link" href="https://www.linkedin.com/in/chippythomas/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
-          <a class="arrow-link" href="mailto:chippythomas18@gmail.com">Email me <span>↗</span></a>
           <a class="arrow-link" href="resume.pdf" target="_blank" rel="noopener">Résumé <span>↓</span></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WORK -->
   <section id="work">
     <div class="sec-head rv">
       <h2>Selected <span class="serif">work</span></h2>
-      <a class="arrow-link" href="https://www.linkedin.com/in/chippythomas/" target="_blank" rel="noopener">More on LinkedIn <span>→</span></a>
+      <a class="arrow-link" href="work.html">All case studies <span>→</span></a>
     </div>
-
-    <article class="feature rv">
-      <div>
-        <div class="meta"><span class="mono" style="color:var(--accent)">Featured · Platform</span><span class="mono">3 years</span></div>
-        <h3>Kolekt</h3>
-        <p class="lede">Keeping a multi-region platform moving. A production waste management platform connecting regional operations, mobile apps, payments, messaging and cloud file management through stable, versioned APIs.</p>
-        <ul class="points">
-          <li><span>01</span><div><b>API versioning</b>, so the backend could change without breaking mobile releases.</div></li>
-          <li><span>02</span><div><b>Payments, SMS &amp; storage</b>: Twilio, payment gateways and AWS S3.</div></li>
-          <li><span>03</span><div><b>MySQL tuning</b> of schemas and queries as the product grew.</div></li>
-          <li><span>04</span><div><b>Production ownership</b>: deployments, hotfixes and CloudWatch investigations.</div></li>
+    <div class="pcards">
+      <a class="pcard lead-card rv" href="work.html#kolekt">
+        <div class="glow"></div>
+        <div>
+          <div class="meta" style="display:flex;gap:14px;margin-bottom:18px"><span class="mono" style="color:var(--accent)">Product · 2+ years</span><span class="mono">1,000+ users · Web + Mobile</span></div>
+          <h3>Kolekt</h3>
+          <p style="margin-top:16px">A waste marketplace app where people buy and sell plastic, clothes, metals, beverage cartons and mixed waste for money, and earn points on top that convert into cash. I joined as the only full-stack developer on a legacy platform with 1,000+ users.</p>
+        </div>
+        <ul class="bullets">
+          <li>Rebuilt the entire transaction flow and points system, front to back</li>
+          <li>APIs for the mobile apps and the admin dashboard</li>
+          <li>Face recognition, SMS and notification-based selling flows</li>
+          <li>Business analyst for the founder: requirements, user stories, estimates</li>
         </ul>
-        <div class="tags"><span class="tag">Laravel Lumen</span><span class="tag">PHP</span><span class="tag">Vue.js</span><span class="tag">Nuxt.js</span><span class="tag">MySQL</span><span class="tag">AWS</span><span class="tag">Twilio</span></div>
-      </div>
-      <div class="diagram" aria-label="Kolekt system overview">
-        <div class="lbl">// system overview</div>
-        <div class="drow d2">
-          <div class="dn"><small>Client</small>Mobile apps</div>
-          <div class="dn"><small>Client</small>Vue / Nuxt dashboard</div>
-        </div>
-        <div class="dar">↓ REST · /v1 /v2</div>
-        <div class="drow"><div class="dn hl"><small>Core</small>Laravel Lumen API · auth · queues</div></div>
-        <div class="dar">↓</div>
-        <div class="drow d3">
-          <div class="dn"><small>Data</small>MySQL</div>
-          <div class="dn"><small>Files</small>AWS S3</div>
-          <div class="dn"><small>Logs</small>CloudWatch</div>
-        </div>
-        <div class="drow d2">
-          <div class="dn"><small>Messaging</small>Twilio SMS</div>
-          <div class="dn"><small>Payments</small>Gateway APIs</div>
-        </div>
-      </div>
-    </article>
-
-    <div class="plist">
-      <a class="prow rv" href="https://savannahlegal.com.au" target="_blank" rel="noopener">
-        <span class="mono">Website · 2019</span><h4>Savannah Legal</h4><p>A responsive digital presence for an Australian law firm, built to communicate expertise clearly and help clients find the right service.</p><span class="go">→</span>
+        <div class="row"><span class="mono">Laravel Lumen · Vue · Nuxt · MySQL · AWS</span><span class="more">Read case study <span>→</span></span></div>
       </a>
-      <a class="prow rv" href="https://theweedman.com.au" target="_blank" rel="noopener">
-        <span class="mono">Web app · 2019</span><h4>The Weedman</h4><p>A customer-facing website with an integrated booking journey for a specialist property service business.</p><span class="go">→</span>
+      <a class="pcard rv" href="work.html#syro-malabar">
+        <div class="glow"></div>
+        <span class="mono" style="color:var(--accent)">Website redesign · Lead developer</span>
+        <h3>St. Joseph Syro-Malabar Parish, Perth</h3>
+        <p>Redesigned almost every page of a large community website and integrated calendars, social media, galleries and more.</p>
+        <div class="row"><span class="mono">CodeIgniter · HTML · CSS · JS</span><span class="more">Read <span>→</span></span></div>
       </a>
-      <a class="prow rv" href="https://aps-group.com.au" target="_blank" rel="noopener">
-        <span class="mono">Corporate · 2019</span><h4>APS Group</h4><p>A polished corporate website for an Australian supply solutions company, structured around its services and customer needs.</p><span class="go">→</span>
-      </a>
-      <a class="prow rv" href="https://jeevadharafrc.org" target="_blank" rel="noopener">
-        <span class="mono">Non-profit · 2020</span><h4>Jeevadhara</h4><p>An accessible information hub for a community organization supporting youth education and couples.</p><span class="go">→</span>
+      <a class="pcard rv" href="work.html#jeevadhara">
+        <div class="glow"></div>
+        <span class="mono" style="color:var(--accent)">Web application · Full stack</span>
+        <h3>Jeevadhara</h3>
+        <p>Built the frontend and backend of a community organization's platform on a two-developer team.</p>
+        <div class="row"><span class="mono">Laravel · Vue.js · MySQL</span><span class="more">Read <span>→</span></span></div>
       </a>
     </div>
   </section>
 
-  <!-- EXPERTISE -->
   <section id="expertise">
-    <div class="sec-head rv"><h2>Expertise</h2><span class="mono">From a blank page to a monitored production release</span></div>
-    <div class="exp-grid">
-      <div class="exp rv">
-        <div class="n">01</div>
-        <h3>Backend &amp; APIs</h3>
-        <p>Scalable Laravel and Lumen applications, secure REST APIs, queues, integrations and reliable background workflows.</p>
-        <ul><li>PHP</li><li>Laravel</li><li>Lumen</li><li>REST</li><li>JWT / OAuth</li><li>Queues &amp; Jobs</li><li>CodeIgniter</li></ul>
-      </div>
-      <div class="exp rv">
-        <div class="n">02</div>
-        <h3>Frontend</h3>
-        <p>Responsive Vue and Nuxt interfaces designed for clarity, performance and real-world user needs.</p>
-        <ul><li>Vue.js</li><li>Nuxt.js</li><li>JavaScript</li><li>HTML / CSS</li><li>SASS</li><li>WordPress</li></ul>
-      </div>
-      <div class="exp rv">
-        <div class="n">03</div>
-        <h3>Data, Cloud &amp; Quality</h3>
-        <p>Thoughtful MySQL and MongoDB design, query optimization, AWS storage, monitoring, testing and production support.</p>
-        <ul><li>MySQL</li><li>MongoDB</li><li>AWS S3</li><li>CloudWatch</li><li>Docker</li><li>CI/CD</li><li>PHPUnit</li><li>Pest</li></ul>
-      </div>
+    <div class="sec-head rv"><h2>What I <span class="serif">can do</span></h2><span class="mono">Business analysis · Web · Software · Apps</span></div>
+    <div class="cap-grid">
+      <div class="cap rv" style="border-color:rgba(212,255,79,.35)"><div class="n">01</div><h3>Business analysis</h3><p>Turning stakeholder ideas into clear requirements, user stories and plans the team can deliver on.</p><div class="stack">Requirements gathering · User stories · Estimation · Documentation · Stakeholder communication · Agile / Scrum · Jira</div></div>
+      <div class="cap rv"><div class="n">02</div><h3>Web applications</h3><p>Full-stack apps, client portals and admin dashboards, from database to UI.</p><div class="stack">Laravel · Vue.js · Nuxt.js · CodeIgniter · JavaScript</div></div>
+      <div class="cap rv"><div class="n">03</div><h3>APIs &amp; mobile backends</h3><p>Secure, versioned REST APIs and integrations that keep mobile releases stable while the product changes.</p><div class="stack">REST · JWT / OAuth · API versioning · Swagger · Twilio · Payments</div></div>
+      <div class="cap rv"><div class="n">04</div><h3>Data &amp; performance</h3><p>Schema design, query tuning and data that stays fast as usage grows.</p><div class="stack">MySQL · MongoDB · Stored procedures · Optimization</div></div>
+      <div class="cap rv"><div class="n">05</div><h3>Cloud, DevOps &amp; quality</h3><p>Deployments, monitoring, hotfixes and tests that catch regressions before users do.</p><div class="stack">AWS S3 · CloudWatch · Docker · CI/CD · PHPUnit · Pest · Jest</div></div>
+      <div class="cap rv"><div class="n">06</div><h3>Websites, CMS &amp; SEO</h3><p>Responsive, SEO-friendly websites that non-technical teams can manage, with the tracking to see what works.</p><div class="stack">WordPress · Contentful · Elementor · Google Search Console · Google Analytics</div></div>
+    </div>
+    <div class="learning rv">
+      <span class="mono">How I work today</span>
+      <p>AI-assisted development with Claude Code and GitHub Copilot. <span>I'm always keen to learn new tools and technologies that help teams ship better software.</span></p>
     </div>
   </section>
 
-  <!-- TESTIMONIAL -->
   <section id="testimonial">
-    <figure class="quote rv">
-      <span class="mark">“</span>
-      <blockquote>It has been a true pleasure working with Chippy over the 1st three years of building the Kolekt App and dashboard. Her communication and follow up has always been spot on. <em>She is clearly very good at straddling the programming side and the client communication (business analyst) side.</em></blockquote>
-      <figcaption class="who">
-        <div class="av">TS</div>
-        <div><b>Thierry Sanders</b><span>Founder, KOLEKT · Waste &amp; Circularity Tech</span></div>
-        <a class="arrow-link" href="https://www.linkedin.com/in/chippythomas/details/recommendations/" target="_blank" rel="noopener">LinkedIn recommendation · Apr 2025 <span>↗</span></a>
-      </figcaption>
+    <div class="sec-head rv"><h2>Kind <span class="serif">words</span></h2><span class="mono">On my development and business analysis work</span></div>
+    
+    <figure class="rec-wrap rv">
+      <a href="https://www.linkedin.com/in/chippythomas/details/recommendations/" target="_blank" rel="noopener" class="rec-link">
+        <img class="rec-shot" src="images/thierry-recommendation.png" width="1168" height="267"
+             alt="LinkedIn recommendation from Thierry Sanders, Founder of KOLEKT, April 11, 2025: It has been a true pleasure working with Chippy over the 1st three years of building the Kolekt App and dashboard. Her communication and follow up has always been spot on. She is clearly very good at straddling the programming side and the client communication (business analyst) side. Chippy I hope we can continue working together in the future, wishing you all the best in Canada!">
+      </a>
+      <figcaption class="rec-note"><a class="arrow-link" href="https://www.linkedin.com/in/chippythomas/details/recommendations/" target="_blank" rel="noopener">View this recommendation on LinkedIn <span>↗</span></a></figcaption>
     </figure>
-    <div class="minis">
-      <figure class="mini rv"><blockquote>“Chippy made our website in no time.”</blockquote><figcaption><b>M. O. Thomas</b><span>Website client</span></figcaption></figure>
-      <figure class="mini rv"><blockquote>“We are extremely happy with the work that Chippy has done for us.”</blockquote><figcaption><b>Liam Jenkins</b><span>Website client</span></figcaption></figure>
-    </div>
   </section>
 
-  <!-- EXPERIENCE -->
-  <section id="experience">
-    <div class="sec-head rv"><h2>Built through <span class="serif">doing.</span></h2><a class="arrow-link" href="resume.pdf" target="_blank" rel="noopener">Full résumé <span>↓</span></a></div>
+  <section id="journey">
+    <div class="sec-head rv"><h2>My <span class="serif">journey</span></h2><a class="arrow-link" href="journey.html">The full story <span>→</span></a></div>
     <div class="jobs">
-      <div class="job rv"><span class="mono">2026 — Now</span><div><h4>Volunteer Website Developer</h4><div class="co">LALF Foundation for Women's Health</div></div><p>Website development and maintenance in WordPress, HTML, CSS and JavaScript, covering usability, performance and SEO.</p></div>
-      <div class="job rv"><span class="mono">2021 — 2024</span><div><h4>Software Engineer</h4><div class="co">Bridge Global Software Solutions</div></div><p>Built and supported production web platforms across the full delivery lifecycle, from discovery and architecture to deployment and incident resolution. Laravel REST APIs and auth, Vue/Nuxt dashboards and portals, MySQL &amp; MongoDB optimization, queues, PHPUnit, Docker and AWS.</p></div>
-      <div class="job rv"><span class="mono">2019 — 2021</span><div><h4>Software Programmer</h4><div class="co">Pepperpot IT Solutions</div></div><p>Delivered responsive websites and web applications for business, community and non-profit clients in PHP, Laravel, CodeIgniter, Vue.js and WordPress, including booking, forms and third-party integrations.</p></div>
-    </div>
-    <div class="edu">
-      <div class="rv"><span class="mono">2014 — 2016</span><b>M.Tech, Computer Science &amp; Engineering</b><span>MET'S College of Engineering · WES assessed</span></div>
-      <div class="rv"><span class="mono">2010 — 2014</span><b>B.Tech, Computer Science &amp; Engineering</b><span>MET'S College of Engineering · WES assessed</span></div>
-      <div class="rv"><span class="mono">2024 — Now</span><b>Software &amp; Web Development</b><span>Academy of Learning Career College, Brampton</span></div>
+      <a class="job rv" href="journey.html#now"><span class="mono">2024 — Now</span><div><h4>Canada chapter</h4><div class="co">Brampton, ON</div></div><p>Software and web development training, and volunteering as a web developer with the LALF Foundation for Women's Health and Project TEMBO.</p></a>
+      <a class="job rv" href="journey.html#bridge-global"><span class="mono">2021 — 2024</span><div><h4>Software Engineer</h4><div class="co">Bridge Global Software Solutions</div></div><p>Product engineering for international clients: APIs for mobile apps, Vue/Nuxt dashboards, data performance and production ownership.</p></a>
+      <a class="job rv" href="journey.html#pepperpot"><span class="mono">2019 — 2021</span><div><h4>Software Programmer</h4><div class="co">Pepperpot IT Solutions</div></div><p>Where I learned to ship: 15+ websites and web apps for business, community and non-profit clients.</p></a>
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact" class="contact">
-    <span class="mono rv" style="display:block;margin-bottom:28px">Have a project or opportunity?</span>
+    <span class="mono rv" style="display:block;margin-bottom:28px">Hiring a developer or business analyst? Have a project?</span>
     <a href="mailto:chippythomas18@gmail.com" class="big rv magnetic-soft">Let's build something <span class="serif">useful</span> together ↗</a>
     <div class="contact-row rv">
       <a href="mailto:chippythomas18@gmail.com"><span class="mono">Email</span><b>chippythomas18@gmail.com</b></a>
@@ -411,13 +468,16 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
       <div><span class="mono">Location</span><b>Brampton, ON · GTA &amp; Remote</b></div>
     </div>
   </section>
+
 </main>
-
 <footer>
-  <span>© <span id="yr"></span> Chippy Thomas · Full Stack Software Engineer</span>
-  <span>Brampton, Ontario, Canada</span>
+  <div class="foot-brand">
+    <img class="logo-img" src="images/logo-mark-light.png" alt="Chippy Thomas logo" data-fallback=".foot-brand">
+    <span class="fallback">ct</span>
+    <span>© <span id="yr"></span> Chippy Thomas · Software Engineer &amp; Business Analyst</span>
+  </div>
+  <span>Brampton, Ontario, Canada · <a href="mailto:chippythomas18@gmail.com">chippythomas18@gmail.com</a></span>
 </footer>
-
 <div class="cursor" id="cursor"></div>
 <script>
   document.getElementById('yr').textContent = new Date().getFullYear();
@@ -428,10 +488,9 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
   function onScroll(){
     const y = scrollY, max = document.documentElement.scrollHeight - innerHeight;
     hdr.classList.toggle('scrolled', y > 40);
-    hdr.classList.toggle('hide', y > lastY && y > 300 && !document.getElementById('drawer').classList.contains('open'));
     lastY = y;
     prog.style.transform = 'scaleX(' + (max > 0 ? y / max : 0) + ')';
-    if (!reduce && y < innerHeight * 1.2) {
+    if (heroName && !reduce && y < innerHeight * 1.2) {
       heroName.style.transform = 'translateY(' + (y * 0.25) + 'px)';
       heroName.style.opacity = Math.max(0, 1 - y / (innerHeight * 0.9));
     }
@@ -462,6 +521,12 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
   drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggle(false)));
   const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .1 });
   document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+  // logo / photo fallbacks when an image file is missing
+  document.querySelectorAll('img[data-fallback]').forEach(img => {
+    const fail = () => img.closest(img.dataset.fallback).classList.add('noimg');
+    if (img.complete && img.naturalWidth === 0) fail(); else img.addEventListener('error', fail);
+  });
 </script>
 </body>
 </html>
